@@ -1,7 +1,6 @@
 
-
+@import "variables";
 @import "header";
-
 
 * {
     box-sizing: border-box;
@@ -43,7 +42,7 @@ body {
 .video{
     width: 400px;
     margin: 10px;
-    background-color: #480e0e;
+    background-color: $guinda-claro;
     font-size:18px;
     display: flex;
     flex-direction: column;
@@ -68,7 +67,7 @@ body {
 .item {
     width: 250px;
     height: 350px;
-    background-color: #480e0e;
+    background-color: $guinda-claro;
     display: inline-block;
     margin: 10px;
     color: #ffe4c4;
@@ -89,12 +88,12 @@ body {
     margin: auto;
     margin-top: 20px;
     padding: 5px 0;
-    color: #480e0e;
+    color: $guinda-claro;
     font-weight: bolder;
-    :hover{
+    &:hover{
          transform: scale(1.2);
         background-color: #fbf7ce;
-        color: #480e0e;
+        color: $guinda-claro;
     }
     a{
         text-decoration: none;
@@ -115,7 +114,7 @@ body {
 .valor-card {
     width: 250px;
     height: 250px;
-    background-color: #480e0e;
+    background-color: $guinda-claro;
     display: inline-block;
     margin: 10px;
     color: #ffe4c4;

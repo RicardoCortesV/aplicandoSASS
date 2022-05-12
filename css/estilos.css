@@ -7,7 +7,7 @@
 
 .header-2 {
   grid-area: header;
-  background-image: url(images/bkg-2.jpg);
+  background-image: url(../images/bkg-2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
@@ -27,7 +27,7 @@
   .nav-item a {
     text-decoration: none;
     color: #ffe4c4; }
-  .nav-item :hover {
+  .nav-item:hover {
     transform: scale(1.2); }
 
 * {
@@ -98,7 +98,7 @@ body {
   padding: 5px 0;
   color: #480e0e;
   font-weight: bolder; }
-  .item__btn :hover {
+  .item__btn:hover {
     transform: scale(1.2);
     background-color: #fbf7ce;
     color: #480e0e; }
